@@ -15,16 +15,16 @@ const navigation = {
 
   categories: [
     {
-      name: 'Women',
+      name: 'Vegetables',
       featured: [
         {
-          name: 'New Arrivals',
+          name: 'Beans',
           href: '#',
           imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg',
           imageAlt: 'Models sitting back to back, wearing Basic Tee in black and bone.',
         },
         {
-          name: 'Basic Tees',
+          name: 'Carrots',
           href: '#',
           imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-02.jpg',
           imageAlt: 'Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.',
@@ -44,39 +44,69 @@ const navigation = {
       ],
     },
     {
-      name: 'Men',
-      featured: [
-        {
-          name: 'New Arrivals',
-          href: '#',
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-01.jpg',
-          imageAlt: 'Hats and sweaters on wood shelves next to various colors of t-shirts on hangers.',
-        },
-        {
-          name: 'Basic Tees',
-          href: '#',
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-02.jpg',
-          imageAlt: 'Model wearing light heather gray t-shirt.',
-        },
-        {
-          name: 'Accessories',
-          href: '#',
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-03.jpg',
-          imageAlt:
-            'Grey 6-panel baseball hat with black brim, black mountain graphic on front, and light heather gray body.',
-        },
-        {
-          name: 'Carry',
-          href: '#',
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-04.jpg',
-          imageAlt: 'Model putting folded cash into slim card holder olive leather wallet with hand stitching.',
-        },
-      ],
-    },
+        name: 'Flowers',
+        featured: [
+          {
+            name: 'New Arrivals',
+            href: '#',
+            imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-01.jpg',
+            imageAlt: 'Hats and sweaters on wood shelves next to various colors of t-shirts on hangers.',
+          },
+          {
+            name: 'Basic Tees',
+            href: '#',
+            imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-02.jpg',
+            imageAlt: 'Model wearing light heather gray t-shirt.',
+          },
+          {
+            name: 'Accessories',
+            href: '#',
+            imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-03.jpg',
+            imageAlt:
+              'Grey 6-panel baseball hat with black brim, black mountain graphic on front, and light heather gray body.',
+          },
+          {
+            name: 'Carry',
+            href: '#',
+            imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-04.jpg',
+            imageAlt: 'Model putting folded cash into slim card holder olive leather wallet with hand stitching.',
+          },
+        ],
+      },   
+      {
+        name: 'Mushrooms',
+        featured: [
+          {
+            name: 'New Arrivals',
+            href: '#',
+            imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-01.jpg',
+            imageAlt: 'Hats and sweaters on wood shelves next to various colors of t-shirts on hangers.',
+          },
+          {
+            name: 'Basic Tees',
+            href: '#',
+            imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-02.jpg',
+            imageAlt: 'Model wearing light heather gray t-shirt.',
+          },
+          {
+            name: 'Accessories',
+            href: '#',
+            imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-03.jpg',
+            imageAlt:
+              'Grey 6-panel baseball hat with black brim, black mountain graphic on front, and light heather gray body.',
+          },
+          {
+            name: 'Carry',
+            href: '#',
+            imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-04.jpg',
+            imageAlt: 'Model putting folded cash into slim card holder olive leather wallet with hand stitching.',
+          },
+        ],
+      },
   ],
   pages: [
-    { name: 'Company', href: '#' },
-    { name: 'Stores', href: '#' },
+    { name: 'About us', href: '#' },
+    // { name: 'Stores', href: '#' },
   ],
 }
 const categories = [
@@ -209,14 +239,14 @@ export default function HomePage() {
                 {/* Links */}
                 <Tab.Group as="div" className="mt-2">
                   <div className="border-b border-gray-200">
-                    <Tab.List className="-mb-px flex space-x-8 px-4">
+                    <Tab.List className="-mb-px flex space-x-4 px-4">
                       {navigation.categories.map((category) => (
                         <Tab
                           key={category.name}
                           className={({ selected }) =>
                             classNames(
                               selected ? 'text-indigo-600 border-indigo-600' : 'text-gray-900 border-transparent',
-                              'flex-1 whitespace-nowrap border-b-2 py-4 px-1 text-base font-medium'
+                              'flex-1 whitespace-nowrap border-b-2 py-2 px-1 text-base font-medium'
                             )
                           }
                         >
