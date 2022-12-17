@@ -397,7 +397,7 @@ export default function HomePage() {
         {/* Decorative image and overlay */}
         <div aria-hidden="true" className="absolute inset-0 overflow-hidden">
           <img
-            src="https://tailwindui.com/img/ecommerce-images/home-page-01-hero-full-width.jpg"
+            src="https://cdn.pixabay.com/photo/2022/04/04/07/58/seedlings-7110591_960_720.jpg"
             alt=""
             className="h-full w-full object-cover object-center"
           />
