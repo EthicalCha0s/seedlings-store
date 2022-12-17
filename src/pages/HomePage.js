@@ -15,66 +15,65 @@ const navigation = {
 
   categories: [
     {
-      name: 'Vegetables',
+      name: 'Plants',
       featured: [
         {
-          name: 'Beans',
+          name: 'Vegetables',
           href: '#',
           imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg',
           imageAlt: 'Models sitting back to back, wearing Basic Tee in black and bone.',
         },
         {
-          name: 'Carrots',
+          name: 'Grass',
           href: '#',
           imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-02.jpg',
           imageAlt: 'Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.',
-        },
-        {
-          name: 'Accessories',
-          href: '#',
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-03.jpg',
-          imageAlt: 'Model wearing minimalist watch with black wristband and white watch face.',
-        },
-        {
-          name: 'Carry',
-          href: '#',
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-04.jpg',
-          imageAlt: 'Model opening tan leather long wallet with credit card pockets and cash pouch.',
-        },
+        }
       ],
     },
     {
         name: 'Flowers',
         featured: [
           {
-            name: 'New Arrivals',
+            name: 'Flowers',
             href: '#',
             imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-01.jpg',
             imageAlt: 'Hats and sweaters on wood shelves next to various colors of t-shirts on hangers.',
           },
           {
-            name: 'Basic Tees',
+            name: 'Wildflowers and Herbs',
+            href: '#',
+            imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-02.jpg',
+            imageAlt: 'Model wearing light heather gray t-shirt.',
+          }
+        ],
+      },   
+      {
+        name: 'Mushrooms',
+        featured: [
+          {
+            name: 'Spawn',
+            href: '#',
+            imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-01.jpg',
+            imageAlt: 'Hats and sweaters on wood shelves next to various colors of t-shirts on hangers.',
+          },
+          {
+            name: 'Cultures',
             href: '#',
             imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-02.jpg',
             imageAlt: 'Model wearing light heather gray t-shirt.',
           },
           {
-            name: 'Accessories',
+            name: 'Tinctures',
             href: '#',
             imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-03.jpg',
             imageAlt:
               'Grey 6-panel baseball hat with black brim, black mountain graphic on front, and light heather gray body.',
-          },
-          {
-            name: 'Carry',
-            href: '#',
-            imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-04.jpg',
-            imageAlt: 'Model putting folded cash into slim card holder olive leather wallet with hand stitching.',
-          },
+          }
         ],
-      },   
+      },  
       {
-        name: 'Mushrooms',
+        name: 'House Plants',
         featured: [
           {
             name: 'New Arrivals',
@@ -238,7 +237,7 @@ export default function HomePage() {
 
                 {/* Links */}
                 <Tab.Group as="div" className="mt-2">
-                  <div className="border-b border-gray-200">
+                  <div className="border-b border-gray-200 overflow-x-auto overflow-y-hidden">
                     <Tab.List className="-mb-px flex space-x-4 px-4">
                       {navigation.categories.map((category) => (
                         <Tab
@@ -246,7 +245,7 @@ export default function HomePage() {
                           className={({ selected }) =>
                             classNames(
                               selected ? 'text-indigo-600 border-indigo-600' : 'text-gray-900 border-transparent',
-                              'flex-1 whitespace-nowrap border-b-2 py-2 px-1 text-base font-medium'
+                              'flex-1 whitespace-nowrap border-b-4 py-2 px-1 text-base font-medium'
                             )
                           }
                         >
