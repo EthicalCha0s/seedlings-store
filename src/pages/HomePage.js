@@ -9,7 +9,7 @@ import {
 } from "@heroicons/react/24/outline";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
-const currencies = ["CAD", "USD", "AUD", "EUR", "GBP"];
+const currencies = ["GBP", "USD", "AUD", "EUR"];
 const navigation = {
   categories: [
     {
@@ -125,34 +125,34 @@ const navigation = {
 };
 const categories = [
   {
-    name: "New Arrivals",
+    name: "Vegetables",
     href: "#",
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/home-page-01-category-01.jpg",
+      "https://cdn.pixabay.com/photo/2015/09/09/20/10/carrots-933010_960_720.jpg",
   },
   {
-    name: "Productivity",
+    name: "Flowers",
     href: "#",
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/home-page-01-category-02.jpg",
+      "https://cdn.pixabay.com/photo/2017/06/17/10/21/tulips-2411779_960_720.jpg",
   },
   {
-    name: "Workspace",
+    name: "Mushrooms",
     href: "#",
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/home-page-01-category-04.jpg",
+      "https://cdn.pixabay.com/photo/2014/07/10/20/55/mushrooms-389421_960_720.jpg",
   },
   {
-    name: "Accessories",
+    name: "House Plants",
     href: "#",
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/home-page-01-category-05.jpg",
+      "https://www.ambius.com/blog/wp-content/uploads/2016/09/ThinkstockPhotos-519129338.jpg",
   },
   {
-    name: "Sale",
+    name: "Vases",
     href: "#",
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/home-page-01-category-03.jpg",
+      "https://cdn.pixabay.com/photo/2017/12/28/15/36/plant-3045473_960_720.jpg",
   },
 ];
 const collections = [
@@ -654,7 +654,7 @@ export default function HomePage() {
           </h1>
           <p className="mt-4 text-xl text-white">
             The new arrivals have, well, newly arrived. Check out the latest
-            options from our summer small-batch release while they're still in
+            options from our spring small-batch release while they're still in
             stock.
           </p>
           <a
@@ -738,7 +738,7 @@ export default function HomePage() {
           <div className="relative overflow-hidden rounded-lg">
             <div className="absolute inset-0">
               <img
-                src="https://tailwindui.com/img/ecommerce-images/home-page-01-feature-section-01.jpg"
+                src="https://cdn.pixabay.com/photo/2017/05/06/14/13/pathway-2289978_960_720.jpg"
                 alt=""
                 className="h-full w-full object-cover object-center"
               />
@@ -749,20 +749,18 @@ export default function HomePage() {
                   id="social-impact-heading"
                   className="text-3xl font-bold tracking-tight text-white sm:text-4xl"
                 >
-                  <span className="block sm:inline">Level up</span>
-                  <span className="block sm:inline">your desk</span>
+                  <span className="block sm:inline">Level up </span>
+                  <span className="block sm:inline">your garden</span>
                 </h2>
                 <p className="mt-3 text-xl text-white">
-                  Make your desk beautiful and organized. Post a picture to
-                  social media and watch it get more likes than life-changing
-                  announcements. Reflect on the shallow nature of existence. At
-                  least you have a really nice desk setup.
+                If you're looking to maintain a beautiful and healthy garden, it's important to have the right tools.
+                Our selection of garden tools includes everything you need to plant, prune, and nurture your plants.
                 </p>
                 <a
                   href="#"
                   className="mt-8 block w-full rounded-md border border-transparent bg-white py-3 px-8 text-base font-medium text-gray-900 hover:bg-gray-100 sm:w-auto"
                 >
-                  Shop Workspace
+                  Shop Tools
                 </a>
               </div>
             </div>
@@ -821,7 +819,7 @@ export default function HomePage() {
           <div className="relative overflow-hidden rounded-lg">
             <div className="absolute inset-0">
               <img
-                src="https://tailwindui.com/img/ecommerce-images/home-page-01-feature-section-02.jpg"
+                src="https://cdn.pixabay.com/photo/2019/01/20/18/11/seed-3944361_960_720.jpg"
                 alt=""
                 className="h-full w-full object-cover object-center"
               />
@@ -832,19 +830,17 @@ export default function HomePage() {
                   id="comfort-heading"
                   className="text-3xl font-bold tracking-tight text-white sm:text-4xl"
                 >
-                  Simple productivity
+                  Healthy harvests
                 </h2>
                 <p className="mt-3 text-xl text-white">
-                  Endless tasks, limited hours, a single piece of paper. Not
-                  really a haiku, but we're doing our best here. No kanban
-                  boards, burndown charts, or tangled flowcharts with our Focus
-                  system. Just the undeniable urge to fill empty circles.
+                Are you looking to give your plants the nutrients they need to thrive? Look no further!
+                Our line of plant nutrients is specially formulated to provide your plants with the nourishment they need to grow strong and healthy.
                 </p>
                 <a
                   href="#"
                   className="mt-8 block w-full rounded-md border border-transparent bg-white py-3 px-8 text-base font-medium text-gray-900 hover:bg-gray-100 sm:w-auto"
                 >
-                  Shop Focus
+                  Shop Fertilizers
                 </a>
               </div>
             </div>
