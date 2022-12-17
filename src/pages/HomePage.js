@@ -227,7 +227,7 @@ export default function HomePage() {
                 <div className="flex px-4 pt-5 pb-2">
                   <button
                     type="button"
-                    className="-m-2 inline-flex items-center justify-center rounded-md p-2 text-gray-400"
+                    className="-m-2 inline-flex items-center justify-center rounded-md pt-2 px-2 text-gray-400"
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     <span className="sr-only">Close menu</span>
@@ -238,7 +238,7 @@ export default function HomePage() {
                 {/* Links */}
                 <Tab.Group as="div" className="mt-2">
                   <div className="border-b border-gray-200 overflow-x-auto overflow-y-hidden">
-                    <Tab.List className="-mb-px flex space-x-4 px-4">
+                    <Tab.List className="-mb-px flex space-x-4 pt-2 px-4">
                       {navigation.categories.map((category) => (
                         <Tab
                           key={category.name}
