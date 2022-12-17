@@ -1,2 +1,2 @@
-# seedlings-life
+# seedlings
 Store to sell seeds.
