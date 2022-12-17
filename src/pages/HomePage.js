@@ -19,7 +19,7 @@ const navigation = {
           name: "Vegetables",
           href: "#",
           imageSrc:
-            "https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg",
+            "https://cdn.pixabay.com/photo/2015/09/09/20/10/carrots-933010_960_720.jpg",
           imageAlt:
             "Models sitting back to back, wearing Basic Tee in black and bone.",
         },
@@ -27,7 +27,7 @@ const navigation = {
           name: "Grass",
           href: "#",
           imageSrc:
-            "https://tailwindui.com/img/ecommerce-images/mega-menu-category-02.jpg",
+            "https://cdn.pixabay.com/photo/2018/05/04/21/22/meadow-3375052_960_720.jpg",
           imageAlt:
             "Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.",
         },
@@ -40,7 +40,7 @@ const navigation = {
           name: "Flowers",
           href: "#",
           imageSrc:
-            "https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-01.jpg",
+            "https://cdn.pixabay.com/photo/2017/06/17/10/21/tulips-2411779_960_720.jpg",
           imageAlt:
             "Hats and sweaters on wood shelves next to various colors of t-shirts on hangers.",
         },
@@ -48,7 +48,7 @@ const navigation = {
           name: "Wildflowers and Herbs",
           href: "#",
           imageSrc:
-            "https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-02.jpg",
+            "https://cdn.pixabay.com/photo/2017/07/20/17/56/herbs-2523119_960_720.jpg",
           imageAlt: "Model wearing light heather gray t-shirt.",
         },
       ],
