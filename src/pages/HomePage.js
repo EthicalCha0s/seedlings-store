@@ -157,34 +157,34 @@ const categories = [
 ];
 const collections = [
   {
-    name: "Handcrafted Collection",
+    name: "Spring Collection",
     href: "#",
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/home-page-01-collection-01.jpg",
+      "https://cdn.pixabay.com/photo/2017/04/23/20/36/tulips-2254970_960_720.jpg",
     imageAlt:
       "Brown leather key ring with brass metal loops and rivets on wood table.",
     description:
-      "Keep your phone, keys, and wallet together, so you can lose everything at once.",
+      "Spring into action with our collection of farming supplies and seeds!",
   },
   {
-    name: "Organized Desk Collection",
+    name: "Summer Collection",
     href: "#",
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/home-page-01-collection-02.jpg",
+      "https://cdn.pixabay.com/photo/2016/08/28/23/24/sunflower-1627193_960_720.jpg",
     imageAlt:
       "Natural leather mouse pad on white desk next to porcelain mug and keyboard.",
     description:
-      "The rest of the house will still be a mess, but your desk will look great.",
+      "Stock up on summer essentials with our collection of heat-tolerant seeds and watering equipment.",
   },
   {
-    name: "Focus Collection",
+    name: "Autumn Collection",
     href: "#",
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/home-page-01-collection-03.jpg",
+      "https://cdn.pixabay.com/photo/2016/10/03/21/06/pumpkins-1712841_960_720.jpg",
     imageAlt:
       "Person placing task list card into walnut card holder next to felt carrying case on leather desk pad.",
     description:
-      "Be more productive than enterprise project managers with a single piece of paper.",
+      "Get ready for fall with our collection of frost-resistant seeds and protective coverings for your plants.",
   },
 ];
 const footerNavigation = {
@@ -779,7 +779,7 @@ export default function HomePage() {
             Shop by Collection
           </h2>
           <p className="mt-4 text-base text-gray-500">
-            Each season, we collaborate with world-class designers to create a
+            Each season, we collaborate with world-class farmers and tool-makers to create a
             collection inspired by the natural world.
           </p>
 
